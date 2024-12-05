@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/88b57dc5-2d79-4ed9-b2e5-3bf9d8a87c22)# Bank Customer Segmentation
+# Bank Customer Segmentation
 
 ## Overview
 
@@ -103,22 +103,24 @@ The project implements **K-Means Clustering** for grouping customers based on pa
 
 #### Results:
 
-- **Clusters and their corresponding elbow plots (Demographic Segmentation):**
- - ![image](https://github.com/user-attachments/assets/493b5614-a2eb-40e4-88ec-a8a907111304)   ![image](https://github.com/user-attachments/assets/86a1fd93-dbc6-4c14-9fb1-02b37734e8cd)
+1. **Clusters and their corresponding elbow plots (Demographic Segmentation):**
+ - ![Demographic Plot](https://github.com/user-attachments/assets/493b5614-a2eb-40e4-88ec-a8a907111304)   ![Demographic Plot](https://github.com/user-attachments/assets/86a1fd93-dbc6-4c14-9fb1-02b37734e8cd)
  - Ages 20–25 contribute less to clusters; working-class customers are the main targets.
 
-- **Clustering using Transaction Amount and Account Balance ( Behavioral Segmentation):**
- - ![image](https://github.com/user-attachments/assets/79e41b6a-73c9-4afe-a4c6-5aa0a366a3bb) ![image](https://github.com/user-attachments/assets/a11138c5-a384-45f1-9845-4714be2f320f)
+2. **Clustering using Transaction Amount and Account Balance ( Behavioral Segmentation):**
+ - ![Behavioral Plot](https://github.com/user-attachments/assets/79e41b6a-73c9-4afe-a4c6-5aa0a366a3bb) ![Behavioral Plot](https://github.com/user-attachments/assets/a11138c5-a384-45f1-9845-4714be2f320f)
+ - Customers with high transaction amounts and account balances are key targets.
 
 
-  - Customers with high transaction amounts and account balances are key targets.
+    
 
-- **Clustering using Customer Location and Account Balance (Geographic Segmentation):**
+3. **Clustering using Customer Location and Account Balance (Geographic Segmentation):**
+  - ![Geographic Plot](https://github.com/user-attachments/assets/411d0b1e-05b7-4b7e-9452-d37dd9ea9c05) ![Geographic Plot](https://github.com/user-attachments/assets/f9ecfe28-6432-441d-b800-0e4d0e30dbde)
   - Variability is least in green cluster and gets higher towards yellow cluster
 
-![image](https://github.com/user-attachments/assets/411d0b1e-05b7-4b7e-9452-d37dd9ea9c05) ![image](https://github.com/user-attachments/assets/f9ecfe28-6432-441d-b800-0e4d0e30dbde)
 
-- **Clustering using Customer Location and Account Balance:**
+
+4. **Clustering using Customer Location and Account Balance:**
  - ![image](https://github.com/user-attachments/assets/d0ee9ba9-c30b-4cdc-84c8-83bcf4d69199)  ![image](https://github.com/user-attachments/assets/28f2f23b-a76b-424f-bea0-d0f1e471e314)
 
 
